@@ -39,6 +39,7 @@ const handleSignOut = ()=>{
     user && <div>
         <h3>usename :{user.displayName}</h3>
         <h3>useremail {user.email }</h3>
+        <img src={user.photoURL} alt=""  />
     </div>
     }
         </div>
